@@ -1,16 +1,11 @@
 #include <Adafruit_BMP085_U.h>
-
-/*Modified by
- * Technical Team,REES52
- */
-
 #include <ESP8266WiFi.h>
 #include <Wire.h> 
 
-const int sensor_pin = A0;  /* Connect Soil moisture analog sensor pin to A0 of NodeMCU */
+const int sensor_pin = A0;  
 
 void setup() {
-  Serial.begin(9600); /* Define baud rate for serial communication */
+  Serial.begin(9600); 
 }
 
 void loop() {

@@ -16,6 +16,5 @@ void loop() {
   Serial.print("Soil Moisture(in Percentage) = ");
   Serial.print(moisture_percentage);
   Serial.println("%");
-
   delay(1000);
 }

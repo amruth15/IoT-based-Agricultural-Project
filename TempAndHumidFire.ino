@@ -42,13 +42,4 @@ void loop() {
   String fireHumid = String(h) + String("%");  
   Serial.print("%  Temperature: ");  Serial.print(t);  Serial.println("Â°C ");
   String fireTemp = String(t) + String("Â°C"); 
- 
- //  Firebase.setString("Msg","Hello");
-  Firebase.pushString("Humidity", fireHumid);        
-  Firebase.pushString("Temperature", fireTemp);   
-   
-
-  Firebase.setFloat("Humidity",h);
-  Firebase.setFloat("Temperature",t);
-  delay(4000);
 }
